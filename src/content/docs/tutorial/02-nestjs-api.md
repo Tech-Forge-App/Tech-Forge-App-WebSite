@@ -3,9 +3,6 @@ title: "Chapter 2 — Running the NestJS API"
 description: Connect the contract-first NestJS API to Keycloak and create your first user through a real HTTP endpoint.
 sidebar:
   order: 2
-  badge:
-    text: New
-    variant: note
 ---
 
 In [Chapter 1](/tutorial/01-keycloak-setup/) you started **Keycloak** and grabbed
@@ -286,9 +283,10 @@ In this chapter you:
 
 ## Next steps
 
-You now have a working API that can create accounts. A future chapter will build
-on this to **read, update, and authenticate** users — and to protect endpoints so
-only valid tokens get through.
+You now have a working API that can create accounts. In
+[Chapter 3](/tutorial/03-authenticating-a-user/) you'll **authenticate** one of
+those users and get back a token — the key that will later unlock protected
+endpoints.
 
 ---
 
