@@ -2,6 +2,7 @@
   "name": "tech-forge-app-website",
   "type": "module",
   "version": "0.0.1",
+  "packageManager": "pnpm@12.3.1",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
